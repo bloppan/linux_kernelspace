@@ -1,0 +1,1 @@
+cmd_/home/bernar/linux_modules/example_11/modules.order := {   echo /home/bernar/linux_modules/example_11/cryptosha256.ko;   echo /home/bernar/linux_modules/example_11/cryptosk.ko; :; } | awk '!x[$$0]++' - > /home/bernar/linux_modules/example_11/modules.order

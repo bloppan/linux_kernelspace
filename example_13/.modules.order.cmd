@@ -1,0 +1,1 @@
+cmd_/home/bernar/linux_modules/example_13/modules.order := {   echo /home/bernar/linux_modules/example_13/devicemodel.ko; :; } | awk '!x[$$0]++' - > /home/bernar/linux_modules/example_13/modules.order

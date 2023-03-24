@@ -1,0 +1,1 @@
+cmd_/home/bernar/linux_modules/example_12/modules.order := {   echo /home/bernar/linux_modules/example_12/vinput.ko;   echo /home/bernar/linux_modules/example_12/vkbd.ko; :; } | awk '!x[$$0]++' - > /home/bernar/linux_modules/example_12/modules.order
