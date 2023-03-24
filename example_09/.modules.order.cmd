@@ -1,1 +1,0 @@
-cmd_/home/bernar/linux_modules/example_09/modules.order := {   echo /home/bernar/linux_modules/example_09/kbleds.ko;   echo /home/bernar/linux_modules/example_09/print_string.ko; :; } | awk '!x[$$0]++' - > /home/bernar/linux_modules/example_09/modules.order

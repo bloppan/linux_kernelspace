@@ -1,1 +1,0 @@
-cmd_/home/bernar/linux_modules/example_01/startstop.o := ld  -m elf_x86_64 -z noexecstack     -r -o /home/bernar/linux_modules/example_01/startstop.o /home/bernar/linux_modules/example_01/start.o /home/bernar/linux_modules/example_01/stop.o

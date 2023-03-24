@@ -1,1 +1,0 @@
-cmd_/home/bernar/linux_modules/example_08/spinlock.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/bernar/linux_modules/example_08/spinlock.ko /home/bernar/linux_modules/example_08/spinlock.o /home/bernar/linux_modules/example_08/spinlock.mod.o;  true

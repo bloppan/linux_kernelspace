@@ -1,1 +1,0 @@
-cmd_/home/bernar/linux_modules/example_08/modules.order := {   echo /home/bernar/linux_modules/example_08/atomic.ko;   echo /home/bernar/linux_modules/example_08/mutex.ko;   echo /home/bernar/linux_modules/example_08/rwlock.ko;   echo /home/bernar/linux_modules/example_08/spinlock.ko; :; } | awk '!x[$$0]++' - > /home/bernar/linux_modules/example_08/modules.order

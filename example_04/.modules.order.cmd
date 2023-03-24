@@ -1,1 +1,0 @@
-cmd_/home/bernar/linux_modules/example_04/modules.order := {   echo /home/bernar/linux_modules/example_04/procfs.ko;   echo /home/bernar/linux_modules/example_04/procfs2.ko;   echo /home/bernar/linux_modules/example_04/procfs3.ko;   echo /home/bernar/linux_modules/example_04/procfs4.ko; :; } | awk '!x[$$0]++' - > /home/bernar/linux_modules/example_04/modules.order

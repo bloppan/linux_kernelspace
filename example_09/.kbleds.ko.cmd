@@ -1,1 +1,0 @@
-cmd_/home/bernar/linux_modules/example_09/kbleds.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/bernar/linux_modules/example_09/kbleds.ko /home/bernar/linux_modules/example_09/kbleds.o /home/bernar/linux_modules/example_09/kbleds.mod.o;  true
