@@ -1,0 +1,11 @@
+# Object files
+*/*.o
+*/*.ko
+*/*.d
+
+# Kernel Module Compile Results
+*/*.mod*
+*/*.cmd*
+*/modules.order
+*/Module.symvers
+
