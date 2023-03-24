@@ -1,0 +1,1 @@
+cmd_/home/bernar/linux_modules/example_01/startstop.mod := { echo  /home/bernar/linux_modules/example_01/start.o /home/bernar/linux_modules/example_01/stop.o;  echo; } > /home/bernar/linux_modules/example_01/startstop.mod

@@ -1,0 +1,1 @@
+cmd_/home/bernar/linux_modules/example_01/startstop.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/bernar/linux_modules/example_01/startstop.ko /home/bernar/linux_modules/example_01/startstop.o /home/bernar/linux_modules/example_01/startstop.mod.o;  true

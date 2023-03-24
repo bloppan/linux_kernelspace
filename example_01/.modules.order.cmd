@@ -1,0 +1,1 @@
+cmd_/home/bernar/linux_modules/example_01/modules.order := {   echo /home/bernar/linux_modules/example_01/hello.ko;   echo /home/bernar/linux_modules/example_01/hello2.ko;   echo /home/bernar/linux_modules/example_01/startstop.ko; :; } | awk '!x[$$0]++' - > /home/bernar/linux_modules/example_01/modules.order
