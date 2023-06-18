@@ -1,5 +1,5 @@
 # Linux modules examples
-This examples are extracted from [The Linux kernel module programming guide](https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf). You can see how to install them through Yocto Project on embedded Linux distribution visiting [Yocto Project example layer](https://github.com/bloppan/meta-app).
+This examples are extracted from [The Linux kernel module programming guide](https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf). You can see how to install them en embedded Linux distribution through Yocto Project visiting [Yocto Project example layer](https://github.com/bloppan/meta-app).
 
 - Example 01: Helloworld. The simplest kernel module.
 - Example 02: Demonstrates command line argument passing to a module.
